@@ -7,9 +7,7 @@ trigger:
 - main
 
 pool:
-  name: Default  
-  demands:
-    - agent.name -equals kd_agent 
+  name: kd_agent  
 
 variables:
   solution: '**/*.sln'
